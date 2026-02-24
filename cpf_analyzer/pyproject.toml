@@ -1,0 +1,13 @@
+[project]
+name = "cpf-smart-analyzer"
+version = "0.1.0"
+description = "Analisador Inteligente de CPF (simulado) em Python (validação, máscara, heurísticas, relatório)."
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = []
+
+[project.scripts]
+cpf-smart = "cpf_analyzer.cli:main"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
